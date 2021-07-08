@@ -1,0 +1,124 @@
+
+
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+li {
+float: left;
+margin-top: 10px;
+
+}
+li a {
+display: block;
+color: white;
+font-size: 27px;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+li a:hover {
+background-color: green;
+border-radius: 20px;
+}
+
+.page1{
+
+ background-repeat: no-repeat;
+ background-size: 100%;
+ min-height: 1000px;
+  background-image: url("move.gif");
+}
+.page2 {
+  background-image: url("9.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+}
+
+
+
+
+.page4 {
+  background-image: url("a.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+
+}
+
+.page5 {
+  background-image: url("bd.jfif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+
+}
+
+
+.page1, .page2, .page3, .page4, .page5 {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.para1{
+padding-left: 30px;
+text-align: justify;
+
+}
+
+.description table tr{
+background: rgba(255, 255, 255, 0.7); 
+font-family: sans-serif;
+font-size: 20px;
+border-spacing: 10px;
+
+
+}
+
+
+.description table td{
+padding: 10px;
+border-radius: 30px;
+border-spacing: 20px;
+margin: 20px;
+}
+
+.page3{
+  min-height: 700px;
+  background-image: url("c.jfif");
+}
+
+
+
+.page3 td{
+  padding-left: 30px;
+}
+
+.writing{
+background-color: rgb(255,255,255,0.5);
+font-size: 20px;
+text-align: justify;
+font-family: sans-serif;
+padding-right: 25px;
+
+}
+
+.page1 {
+  
+  height: 1000px; /* Used in this example to enable scrolling */
+}
+
+
+.last{
+  color: brown;
+  font-size: 25px;
+  text-align: center;
+}
